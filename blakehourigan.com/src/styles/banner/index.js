@@ -35,6 +35,7 @@ export const BannerImage = styled('img')(({src,theme}) => ({
 
 export const BannerContent = styled(Box)(() => ({
     display: 'flex',
+    alignItems: 'center',
     flexDirection: 'column',
     justifyContent: 'center',
     maxWidth: 420,
