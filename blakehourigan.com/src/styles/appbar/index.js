@@ -1,7 +1,7 @@
 import { List, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../theme";
-import "@fontsource/montez"
+import "@fontsource/source-sans-pro";
 import {Box} from "@mui/system"
 
 export const AppbarContainer = styled(Box)(() => ({
@@ -16,7 +16,8 @@ export const AppbarHeader = styled(Typography)(() => ({
     padding: '4px',
     flexGrow: 1,
     fontSize: '4em',
-    fontFamily: '"montez","cursive"',
+    fontFamily: '"sans-pro"',
+    fontStyle: "italic",
     color: Colors.secondary,
 }));
 
